@@ -1,0 +1,15 @@
+.good {
+    background-color: aquamarine; 
+    width: 100%;
+    position: absolute;
+}
+.good ul {
+    list-style-type: none;
+
+}
+.good ul li {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+
+}

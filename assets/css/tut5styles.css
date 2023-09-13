@@ -1,0 +1,36 @@
+.hero{
+    background-color: antiquewhite;
+    height: 200px;
+}
+.hero h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 6;
+}
+.about{
+    background-color: aquamarine;
+    height: 200px;
+}
+
+.about h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 6;
+}
+
+.sevice{
+   background-color: blueviolet;
+   height: 200px; 
+}
+
+.sevice h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 6;
+    }
+.con{
+    
+}

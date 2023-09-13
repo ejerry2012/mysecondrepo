@@ -1,0 +1,126 @@
+.sign-up{
+width: 100%;
+padding: 100px;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(255, 255, 255);
+}
+
+.sign-up .reg-form h2{
+ text-align: center;   
+}
+
+.sign-up .reg-form{
+max-width: 500px;
+
+padding: 20px;
+box-sizing: border-box;
+box-shadow: 0px 0px 25px 1px #ccc;
+border-radius: 8px;
+}
+
+.sign-up .reg-form input{
+width: 100%;
+padding: 10px;
+border: none;
+outline: none;
+background-color: #18db42;
+margin: 10px 0px;
+box-sizing: border-box;
+}
+
+
+.sign-up .reg-form input[type="reset"]:active {opacity: 0.6;}
+
+.sign-up .reg-form #kl {
+    width: unset;
+}
+
+.sign-up .reg-form label{
+width: 100%;
+padding: 10px;
+margin-top: 10px;
+color: #333;
+}
+
+.sign-up .reg-form textarea{
+width: 100%;
+padding: 10px;
+border: none;
+outline: none;
+background-color: #fff;
+border: 1px solid #ccc;
+border-radius: 6px;
+margin: 10px 0px;
+box-sizing: border-box;
+
+
+}
+
+.sign-up .reg-form fieldset {
+border: 1px solid #ccc;
+border-radius: 6px;
+margin: 10px 0px;
+}
+
+
+
+.Entry-Form{
+    width: 100%;
+    padding: 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 252, 252);
+    }
+
+    .Entry-Form .App-form h2{
+        text-align: center;   
+       }
+
+       .Entry-Form .App-form{
+        max-width: 500px;
+        
+        padding: 20px;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 25px 1px #ccc;
+        border-radius: 8px;
+        }
+
+        .Entry-Form .App-form input{
+            width: 100%;
+            padding: 10px;
+            border: none;
+            outline: none;
+            background-color: #0cf16c;
+            margin: 10px 0px;
+            box-sizing: border-box;
+            }
+
+            .Entry-Form .App-form label{
+                width: 100%;
+                padding: 10px;
+                margin-top: 10px;
+                color: #333;
+                }
+                
+                .Entry-Form .App-form textarea{
+                width: 100%;
+                padding: 10px;
+                border: none;
+                outline: none;
+                background-color: #fff;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                margin: 10px 0px;
+                box-sizing: border-box;
+                
+                
+                }
+.Entry-Form .App-form input{
+    cursor: pointer;
+}
+        

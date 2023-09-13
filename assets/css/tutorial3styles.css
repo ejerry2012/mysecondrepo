@@ -1,0 +1,70 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.navbar{
+    background-color: rgb(148 223 221);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid;
+padding-left: 100px;
+padding-right: 100px;
+padding-top: 10px;
+padding-bottom: 10px;
+/* this helps us to maintain original width */
+box-sizing: border-box;
+
+}
+.logo{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(23, 31, 11);
+}
+
+.logo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: -10px;
+}
+
+.menus ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.menus ul li{
+    /* to remopve the bullet points or numbers */
+    list-style-type: none;
+color: rgb(10, 6, 14);
+float: left;
+margin-right: 15px;
+/* background-color: rgb(100, 226, 17); */
+text-transform: capitalize;
+cursor: pointer;
+}
+
+.menus ul li:hover {
+    color: rgb(250, 54, 54);
+}
+.wood{
+    background: url("../images/GT.jpg");
+    height: 500px;
+    background-size: cover;
+    margin-top: -30px;
+}
+.wood h1{
+    color: orange;
+    background-color: rgba(0, 0, 0, 0.63);
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

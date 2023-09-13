@@ -1,0 +1,29 @@
+.block {
+  background-color: rgb(97, 96, 67);
+  color: aliceblue;
+  padding: 50px;
+}
+
+.brick {
+  background-color: rgb(97, 96, 67);
+  padding: 10px;
+  color: aliceblue;
+}
+
+.concrete {
+  color: blueviolet;
+}
+
+.rod {
+  color: rgb(3, 12, 20);
+  /* this is to make text bigger or smaller */
+  font-size: 24px;   
+  font-weight: 600;
+}
+
+.sand {
+  color: rgb(238, 18, 11);
+}
+.stone{ color: rgb(27, 179, 90);
+
+}

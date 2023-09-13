@@ -1,0 +1,215 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar {
+  background-color: rgb(76, 78, 78);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* this helps us to maintain original width */
+  box-sizing: border-box;
+}
+
+.logo1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(23, 31, 11);
+}
+
+.logo1 img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: -10px;
+}
+
+.e1 {
+  color: rgb(251, 255, 249);
+}
+.m1 {
+  color: rgb(41, 204, 19);
+}
+
+.menu1 span {
+  color: rgb(250, 250, 250);
+  background-color: rgb(41, 204, 19);
+  padding: 5px;
+  border-radius: 5px;
+}
+.container {
+  background-color: rgba(19, 24, 24, 0.911);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  /* this helps us to maintain original width */
+  box-sizing: border-box;
+}
+.logo2 img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: -10px;
+}
+.p3 {
+  color: rgb(251, 255, 249);
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 20px;
+}
+.p4 {
+  color: rgb(41, 204, 19);
+  font-weight: bold;
+}
+.body1 {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* border-bottom: 2px solid; */
+  /* padding-left: 50px; */
+  /* padding-right: 50px; */
+  /* padding-top:10px; */
+  /* padding-bottom: 10px; */
+  /* this helps us to maintain original width */
+  box-sizing: border-box;
+  border-spacing: 5%;
+  margin-top: 20px;
+  padding: 10px;
+  /* border-radius: 8px; */
+  margin-left: 20px;
+}
+
+.Buy {
+  color: rgb(250, 250, 250);
+  background-color: rgb(41, 204, 19);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.box {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px 19px;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+.body2 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  line-height: 0px;
+}
+
+.E {
+  color: rgb(250, 248, 245);
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.web {
+  color: rgb(250, 248, 245);
+  font-size: 30px;
+  line-height: 0px;
+  margin-top: -15px;
+}
+
+.plate {
+  color: rgb(250, 248, 245);
+  font-size: 30px;
+  margin-top: -20px;
+}
+
+.Demo {
+  color: rgb(250, 250, 250);
+  background-color: rgb(41, 204, 19);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+.title {
+  text-align: center;
+}
+
+.edu-feature-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.edu-feature {
+  max-width: 350px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.edu-feature .icon {
+  color: rgb(41, 204, 19);
+  font-size: 15px;
+  font: 5px;
+  padding: 15px;
+  align-self: flex-start
+}
+
+.edu-feature .desc {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: flex-start;
+}
+
+.edu-feature .desc .caption {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* footer sesction starts here */
+.end {
+  background-color: rgb(41, 204, 19);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  box-sizing: border-box;
+}
+
+.end .make {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}

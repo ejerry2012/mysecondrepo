@@ -1,0 +1,104 @@
+
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.navbar {
+  background-color: rgb(141, 118, 91);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(8, 12, 6);
+ }
+ .logo img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: -10px;
+}
+
+.menus ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.menus ul li{
+  /* to remopve the bullet points or numbers */
+  list-style-type: none;
+color: rgb(10, 6, 14);
+float: left;
+margin-right: 15px;
+/* background-color: rgb(100, 226, 17); */
+text-transform: capitalize;
+cursor: pointer;
+}
+
+.menus ul li:hover {
+  color: rgb(7, 5, 117);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wood{
+  background: url(../images/3378\ -\ Copy\ -\ Copy\ \(2\)\ -\ Copy.jpg);
+  height: 500px;
+  background-size  : contain;
+  margin-top: -30;
+}
+
+ .wood h1{
+   color: navy;
+   background-color: rgba(4, 39, 31, 0.877);
+   padding: 0px 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
